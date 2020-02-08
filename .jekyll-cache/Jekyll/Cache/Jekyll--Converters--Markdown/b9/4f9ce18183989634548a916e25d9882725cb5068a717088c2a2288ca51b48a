@@ -1,6 +1,0 @@
-I"�<h2 id="introduction">Introduction</h2>
-<p>In this tutorial we’ll create a few blog posts and list them on our demo Bakery Store site.
-Creating a post
-Blog posts live in the _posts directory. Each post is stored in its own file. The file name of a post is important, the beginning has the date when the post was or will be published, then there’s a title and finally an extension. By default, blog posts are commonly written in Markdown but can also be written in HTML. We’ll create a new file for our first post: _posts/2016-04-03-chocolate-chip-cookies.md.
-In our post we’ll start with empty front matter. We need this empty front matter to tell Jekyll that this isn’t a static file. Then we’ll add our Markdown content:</p>
-:ET

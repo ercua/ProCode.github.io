@@ -1,8 +1,0 @@
-I"�<p>Let’s say we’re outputting heading string in multiple places across this page but each time, we want the output to be slightly different.
-Replace
-In this first instance, instead of saying “baked goods” we want it to say “baked bread”. This is an excellent use case for Liquid filters.
-To use a filter we’ll add a “|” after the variable then pass it a filter, replace in this case:
-…</p>
-<h2></h2>
-<p>…</p>
-:ET
