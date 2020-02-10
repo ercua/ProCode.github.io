@@ -2,7 +2,6 @@
 layout: post
 title:  "Очередной пустой пост"
 date:   2020-02-02 13:04:13 +0000
-categories: life
 description:
 author: ProProfit
 cover: https://images.freeimages.com/images/large-previews/76f/hard-disk-1243403.jpg
