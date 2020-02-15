@@ -65,10 +65,10 @@ layout: default
          
           
         <h3>
-
+            
           <a class="post-link" href="{{ post.url | relative_url }}">
 
-            < {{ post.title | escape }} />
+            <span>//</span> {{ post.title | escape }}
 
           </a>
 
@@ -77,7 +77,7 @@ layout: default
             {{ post.description }}  
           {% else %}
             {{ post.excerpt }}
-             <a class="excerpt-post-link" href="{{ post.url | relative_url }}">// Далее</a>
+             <!-- <a class="excerpt-post-link" href="{{ post.url | relative_url }}">next</a> -->
           {% endif %}   
         </div>
 
@@ -132,7 +132,5 @@ layout: default
 
     </p>
      {%- endif -%}
-
-
-
 </div>
+
