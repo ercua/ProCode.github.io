@@ -1,12 +1,23 @@
 ---
 ---
+@charset "utf-8"
+@import 'reset.sass', 'native.sass'
+
+// COLORS	
+	
+$bg-head-footer: #4D5959
+	
 html
  	position: relative
  	min-height: 100%	
+
+
+
 .container
 	display: flex
 	justify-content: space-between
-	padding: 2px 20px	
+	padding: 2px 20px
+	
 body
 	background-color: #F2F2F2
 	font-family: 'Play', sans-serif
@@ -14,6 +25,8 @@ body
 	font-weight: 400
 	line-height: 1.4
 	color: #27332C
+	
+
 // HEADER
 .header
 	position: fixed
@@ -21,7 +34,7 @@ body
 	top: 0
 	color: #BACDD9
 	align-items: center
-	background-color: #4D5959
+	background-color: $bg-head-footer
 	border-bottom: 3px solid #DFF68F
 	z-index: 2
 	.top_nav
@@ -29,6 +42,7 @@ body
 			display: flex
 		li 
 			margin-right: 20px
+	
 .header, .footer
 	a
 		color: #BACDD9
@@ -43,6 +57,7 @@ a
 		color: #47646f
 	&:hover
 		color: #8ea6b2
+
 // POST
 .home-post-list, .post, .page
 	margin: 40px auto
@@ -65,6 +80,7 @@ a
 		img
 			width: 100%
 // POST TITLE
+
 .post-link
 	font-size: 26px
 	font-weight: 400
@@ -75,13 +91,19 @@ a
 .post-item__data
 	padding: 10px 0 0 10px
 // PAGES
+
 .post, .page
 	background-color: #ffffff
 	display: block
 	width: 1020px
 	padding: 20px
 	border: 1px solid #eee
+	
+	
+	
+
 // IMG COVER
+
 .post_image_cover
 	width: 100%
 	height: 350px
@@ -92,18 +114,24 @@ a
 	&:hover
 		border: none
 		filter: opacity(30%)
+
 // MORE...
+
 .expert-post-link
 	padding: 2px
 	border-radius: 5px
 	color: #ffffff
+
 // LIGHET CODE
+
 .highlight
 	border: 1px solid #DFDFDF
+
 // FOOTER
+
 .footer
 	color: #c3ccd3
-	background-color: #4D5959
+	background-color: $bg-head-footer
 	padding: 2px 0
 	position: absolute
 	bottom: 0
@@ -113,8 +141,12 @@ a
 		display: block
 		width: 450px
 		height: 100%
+
+
 	// TAGs
+
 .tags
 	color: #E6567A
+	
 .highligher-rouge
 	color: #DCDCDC
