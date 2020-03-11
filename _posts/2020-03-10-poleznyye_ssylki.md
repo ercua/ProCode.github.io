@@ -11,13 +11,7 @@ cover:
 
 ## IDE онлайн
 
-
-[gitpod.io](https://gitpod.io) -- Возможность программировать онлайн используя [github][1]
+[gitpod.io](https://gitpod.io) -- Возможность программировать онлайн используя [github](https://github.com/)
 
 [Cloud9](https://aws.amazon.com/ru/cloud9/) -- Amazon выкупило в свое время **Cloud9**
 
-
-
-
-[1]: https://github.com/ "github" 
-[2]: https://yandex.ru "Яндекс"
