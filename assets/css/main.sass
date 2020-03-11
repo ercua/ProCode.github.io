@@ -15,7 +15,7 @@ html
 	display: flex
 	justify-content: space-between
 	padding: 2px 20px
-
+	align-items: center
 body
 	background-color: #F2F2F2
 	font-family: 'Play', sans-serif
@@ -23,6 +23,7 @@ body
 	font-weight: 400
 	line-height: 1.4
 	color: #27332C
+	
 
 // HEADER
 .header
@@ -39,6 +40,10 @@ body
 			display: flex
 		li 
 			margin-right: 20px
+			
+.logo
+	font-size: 23px
+		
 
 .header, .footer
 	a
@@ -57,7 +62,7 @@ a
 
 // POST
 .home-post-list, .post, .page
-	margin: 40px auto
+	margin: 5% auto
 .post-item
 	background-color: #ffffff
 	width: 820px
@@ -81,7 +86,7 @@ a
 .post-link
 	font-size: 26px
 	font-weight: 400
-	color: #574b90
+	color: #47646f
 	&:hover
 		color: #786fa6
 
@@ -131,6 +136,7 @@ a
 	bottom: 0
 	width: 100%
 	flex: 0 0 auto
+.footer_col
 	&_item
 		display: block
 		width: 450px
@@ -142,4 +148,7 @@ a
 	color: #E6567A
 
 .highligher-rouge
-	color: #DCDCDC
+	color: #ffffff
+	background-color: #47646f
+	border-radius: 3px
+	padding: 1px 2px
